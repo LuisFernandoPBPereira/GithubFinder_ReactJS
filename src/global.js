@@ -9,7 +9,7 @@ export default createGlobalStyle`
     }
 
     hr{
-        background-color: rgba(229, 229, 229, 229, 0.2);
-        border: 1px solid rgba(229, 229, 229, 229, 0.2);
+        background-color: rgba(229, 229, 229, 0.2);
+        border: 1px solid rgba(229, 229, 229, 0.2);
     }
 `

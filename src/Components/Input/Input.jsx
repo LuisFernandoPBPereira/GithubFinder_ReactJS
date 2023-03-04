@@ -1,7 +1,10 @@
 import * as S from "./styled"
 
-export function Input() {
+export function Input({name, placeholder, onChange}) {
   return (
-    <S.Input>Input</S.Input>
+    <S.Input name={name}
+             placeholder={placeholder} 
+             onChange={onChange}
+    />
   )
 }

@@ -1,7 +1,7 @@
 import * as S from "./styled.js"
 
-export function Button() {
+export function Button({label, onClick}) {
   return (
-    <S.Button>Button</S.Button>
+    <S.Button onClick={onClick}>{label}</S.Button>
   )
 }
