@@ -8,4 +8,9 @@ export const Button = styled.button`
     font-size: 18px;
     padding: 10px;
     color: white;
+
+    &:hover{
+        filter: brightness(2.0);
+        cursor: pointer;
+    }
 `

@@ -9,7 +9,7 @@ export const App = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-
+        
     }
 
     .info{
@@ -27,19 +27,19 @@ export const App = styled.div`
     }
 
     .profile h3{
-        color: #999999;
-        font-size: 24px;
+        color: #FFFFFF;
+        font-size: 32px;
     }
 
     .profile span{
         display: block;
-        color: #999999;
-        font-size: 12px;
+        color: #FFFFFF;
+        font-size: 16px;
     }
 
     .profile p{
-        color: #999999;
-        font-size: 12px;
+        color: #FFFFFF;
+        font-size: 20px;
         margin-top: 20px;
     }
 
@@ -51,10 +51,15 @@ export const App = styled.div`
         margin-right: 24px;
     }
 
-    h4{
+    h2{
         text-align: center;
     }
 
+    .data{
+        h2{
+            margin-bottom: 1vh;
+        }
+    }
     @media(max-width: 590px){
         .data{
             display: flex;
